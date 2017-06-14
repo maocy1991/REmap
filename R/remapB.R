@@ -125,24 +125,24 @@ remapB = function(center = c(104.114129,37.550339),
     mapStyleData = "map.setMapStyle({
     styleJson: [
     {
-    'featureType': 'water',
-    'elementType': 'all',
-    'stylers': {
-    'color': '#044161'
-    }
-    },
-    {
     'featureType': 'land',
-    'elementType': 'all',
-    'stylers': {
-    'color': '#004981'
-    }
-    },
-    {
-    'featureType': 'boundary',
     'elementType': 'geometry',
     'stylers': {
-    'color': '#064f85'
+    'color': '#081734'
+    }
+    },
+    {
+    'featureType': 'building',
+    'elementType': 'geometry',
+    'stylers': {
+    'color': '#04406F'
+    }
+    },
+    {
+    'featureType': 'building',
+    'elementType': 'labels',
+    'stylers': {
+    'visibility': 'off'
     }
     },
     {
